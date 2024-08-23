@@ -1,12 +1,11 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:get/get.dart';
-import 'package:lector_facturacion/carro_compra/carrito_servicio.dart';
 
 class HomePageController extends GetxController {
   var valorCodigoBarras = '';
+  var productos = <Map<String, dynamic>>[].obs;
 
   Future<void> escanearCodigoBarras(BuildContext context) async {
     String barcodeScanRes = await FlutterBarcodeScanner.scanBarcode(
@@ -19,8 +18,16 @@ class HomePageController extends GetxController {
     if (barcodeScanRes == '-1') {
       Get.snackbar('Cancelado', 'Lectura Cancelada');
     } else {
+      // Simular la adición de producto
+      final producto = {
+        'nombre': 'Producto $barcodeScanRes',
+        'cantidad': 1,
+        'precio': 10.0, // Ejemplo de precio, puedes modificarlo según tu lógica
+      };
+
+      productos.add(producto);
+      valorCodigoBarras = barcodeScanRes;
       update();
-      Get.find<CarritoService>().agregarProducto(context, barcodeScanRes);
     }
   }
 }
