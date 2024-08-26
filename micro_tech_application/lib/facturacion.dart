@@ -142,7 +142,6 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
                     } else if (index == 0) {
                       Get.to(() => FacturacionScreen());
                     }
-                    // Agrega más condiciones según sea necesario
                   });
                 },
                 items: [
