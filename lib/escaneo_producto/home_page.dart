@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:lector_facturacion/carro_compra/carrito_page.dart';
 import 'package:lector_facturacion/escaneo_producto/home_page_controller.dart';
+import 'package:lector_facturacion/carro_compra/carrito_page.dart'; // Importa la página del carrito
 
 class HomePage extends StatelessWidget {
   HomePage() {
@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Facturación'),
+        title: const Text('Aplicación de santiago'),
       ),
       body: SizedBox.expand(
         child: Column(
