@@ -14,7 +14,11 @@ dependencies:
     sdk: flutter
   flutter_barcode_scanner: ^2.0.0
   get: ^4.6.6
+<<<<<<< Updated upstream
   http: ^1.2.2
+=======
+  http: ^0.13.4
+>>>>>>> Stashed changes
   progress_dialog_null_safe: ^3.0.0
 
 dev_dependencies:

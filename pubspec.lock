@@ -82,10 +82,17 @@ packages:
     dependency: transitive
     description:
       name: flutter_plugin_android_lifecycle
+<<<<<<< Updated upstream
       sha256: "9d98bd47ef9d34e803d438f17fd32b116d31009f534a6fa5ce3a1167f189a6de"
       url: "https://pub.dev"
     source: hosted
     version: "2.0.21"
+=======
+      sha256: "9ee02950848f61c4129af3d6ec84a1cfc0e47931abc746b03e7a3bc3e8ff6eda"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.22"
+>>>>>>> Stashed changes
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -103,10 +110,17 @@ packages:
     dependency: "direct main"
     description:
       name: http
+<<<<<<< Updated upstream
       sha256: b9c29a161230ee03d3ccf545097fccd9b87a5264228c5d348202e0f0c28f9010
       url: "https://pub.dev"
     source: hosted
     version: "1.2.2"
+=======
+      sha256: "5895291c13fa8a3bd82e76d5627f69e0d85ca6a30dcac95c4ea19a5d555879c2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.13.6"
+>>>>>>> Stashed changes
   http_parser:
     dependency: transitive
     description:
