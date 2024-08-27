@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:lector_facturacion/carrito_servicio.dart';
+import 'package:lector_facturacion/carro_compra/carrito_servicio.dart';
 import 'package:progress_dialog_null_safe/progress_dialog_null_safe.dart';
 
 class CarritoPage extends StatelessWidget {

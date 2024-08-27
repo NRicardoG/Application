@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:lector_facturacion/home_page_controller.dart';
-import 'package:lector_facturacion/carrito_page.dart'; // Importa la página del carrito
+import 'package:lector_facturacion/escaneo_producto/home_page_controller.dart';
+import 'package:lector_facturacion/carro_compra/carrito_page.dart'; // Importa la página del carrito
 
 class HomePage extends StatelessWidget {
   HomePage() {
